@@ -1,0 +1,22 @@
+$color1:#e8e8e8;
+$font1:'montserrat',sans-serif;
+
+.head
+{
+    color:$color1;
+    font-family: $font1;
+}
+
+.smalltext
+{
+    font-family:$font1;
+    font-size:30px;
+    color:$color1;
+}
+
+.subtext
+{
+    font-family:'Lato',sans-serif;
+    color:$color1;
+    font-size:15px;
+}

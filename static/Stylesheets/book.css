@@ -1,0 +1,71 @@
+.split {
+  height: 100%;
+  width: 50%;
+  position: absolute;
+  z-index: 1;
+  top: 37%;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+  background-color: transparent;
+}
+
+.right {
+  right: 0;
+  background-color: transparent;
+}
+
+.data p {
+  color: #e8e8e8;
+  font-family: "Lato", sans-serif;
+  font-size: 30px;
+  margin-left: 10%;
+}
+
+.scrollspy h4 {
+  color: #e8e8e8;
+  font-family: "montserrat", sans-serif;
+}
+
+.scrollspy p {
+  color: #e8e8e8;
+  font-family: "Lato", sans-serif;
+}
+
+h3 {
+  color: #e8e8e8;
+  font-family: "Lato", sans-serif;
+  font-size: 10px;
+}
+
+h6 {
+  color: #e8e8e8;
+  font-family: "Lato", sans-serif;
+  font-size: 10px;
+}
+
+.rate {
+  border-radius: 10px;
+  background: black;
+  color: #e8e8e8;
+  font-size: 1vw;
+}
+
+textarea {
+  border-radius: 10px;
+  background: black;
+  color: #e8e8e8;
+  font-size: 1vw;
+}
+
+.postblock {
+  margin-left: 1%;
+}
+
+.buttons.bookonly {
+  margin-left: 1%;
+}
+
+/*# sourceMappingURL=book.css.map */

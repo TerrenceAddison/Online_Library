@@ -1,0 +1,36 @@
+{% extends "layout.html" %}
+
+
+{% block title %}
+Project1 - Login/Register
+{% endblock %}
+
+{% block head %}
+<link rel="stylesheet" href="/static/stylesheets/login.css">
+{% endblock %}
+
+{% block body %}
+<div class = "centering">
+<div class = "blackbg">
+    <h1 class = "head">Welcome</h1>
+    {{alert}}
+    <br><br><br>
+    <form method = "POST">
+        <p class = "smalltext">Username:</p>
+        <input class = "fillin" type = "text" name ="username" placeholder="Username">
+        <br><br>
+        <p class = "smalltext">Password:</p>
+        <input class = "fillin" type= "password" name = "password" placeholder="Password">
+        <br><br><br><br><br>
+        <input onclick="action='{{ url_for( 'searchome')}}' "  type="submit" name ="login" class = "buttons" value = "Log in" style = "margin-left:-2%">
+        <input onclick="action='{{ url_for( 'register')}}' " type="submit" name ="register" class = "buttons" value = "Register" style = "margin-left:7%">
+
+
+    </form>
+    <br>
+    <p class = "subtext">Fill in your details and click register if you're new!</p>
+</div>
+</div>
+
+
+{% endblock %}

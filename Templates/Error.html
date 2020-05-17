@@ -1,0 +1,25 @@
+{% extends "layout.html" %}
+
+
+{% block title %}
+Project1 - error 404
+{% endblock %}
+
+{% block head %}
+<link rel="stylesheet" href="/static/stylesheets/searchome.css">
+
+{% endblock %}
+
+{% block body %}
+
+<h1 class = "headtext">Project1</h1>
+<br>
+<h2 class = "subtext">Error 404</h2>
+<br>
+<div class = "centering">
+<form action="{{url_for('index')}}">
+    <input type="submit" class="homebutton" value="Home">
+</form>
+</div>
+
+{% endblock %}

@@ -1,0 +1,104 @@
+$color1:#e8e8e8;
+$font1:'montserrat',sans-serif;
+$font2:'Lato', sans-serif;
+
+.searchbar
+{
+    width: 80%;
+    border-radius: 10px;
+    padding: 1% 2% 1% 2%;
+    background-color: transparent;
+}
+.searchbar2
+{
+    width: 80%;
+    border-radius: 10px;
+    padding: 1% 2% 1% 2%;
+    background-color: transparent;
+    margin-left:4%;
+}
+
+::placeholder{
+    color:white;
+    font-size:20px;
+    opacity:0.8;
+}
+
+.headtext
+{
+    text-align:center;
+    font-size:110px;
+    color:$color1;
+    font-family:$font1;
+}
+
+.subtext
+{
+    text-align:center;
+    font-size:25px;
+    color:$color1;
+    font-family:$font2;
+}
+
+input[type="text"]
+{
+    font-size:20px;
+}
+
+.logout{
+    float: right;
+    margin-left:3%;
+    font-family:'Montserrat',sans-serif;
+    font-size:20px;
+    color:white;
+    background-color: transparent;
+    border-radius: 10px;
+    border-color: white;
+    padding: 5px 15px 5px 15px;
+    transition-duration:0.3s;
+    margin: 1% 1% 0% 0%;
+}
+
+.booklist
+{
+    font-family:$font2;
+    font-size:30px;
+    color:$color1;
+    margin-left:5%;
+}
+
+.alert
+{
+    font-family:$font1;
+    font-size:30px;
+    color:$color1;
+    text-align: center;
+}
+
+.link
+{
+    color:$color1;
+
+}
+.link:hover
+{
+    color:$color1;
+}
+
+.centering
+{
+    text-align: center;
+}
+
+.homebutton{
+    
+    font-family:'Montserrat',sans-serif;
+    font-size:20px;
+    color:white;
+    background-color: transparent;
+    border-radius: 10px;
+    border-color: white;
+    padding: 5px 15px 5px 15px;
+    transition-duration:0.3s;
+    margin: 1% 1% 0% 1%;
+}

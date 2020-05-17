@@ -1,0 +1,33 @@
+{% extends "layout.html" %}
+
+{% block title %}
+Project1 - Search Engine
+{% endblock %}
+
+{% block head %}
+<link rel="stylesheet" href="/static/stylesheets/searchome.css">
+{% endblock %}
+
+{% block body %}
+<form action="{{url_for('logout')}}">
+    <input type="submit" class="logout" value="Log out">
+</form>
+<br><br><br>
+<h1 class = "headtext">Project1</h1>
+<br>
+<h2 class = "subtext">Search the book, give a rating, and leave a review.</h2>
+<p class = "alert">{{alert}}</p>
+<br><br><br><br><br>
+<div style="text-align: center;">
+<form method = "POST">
+<input type="text" class = "searchbar" name = "search" placeholder="Enter Title, ISBN or Author name">
+<br><br><br><br>
+<input onclick="action='{{ url_for( 'search')}}' " type="submit" name ="search" class = "buttons centering" value = "Search">
+
+
+
+
+</form>
+</div>
+
+{% endblock %}
