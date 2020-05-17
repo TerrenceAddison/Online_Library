@@ -1,3 +1,3 @@
-# Project 1
+# Project1
 
-Web Programming with Python and JavaScript
+An online library project
